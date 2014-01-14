@@ -41,5 +41,10 @@ namespace IHI.Server.Plugins.LibMessenger
         {
             _befriendables.Remove(friend);
         }
+
+        public IEnumerable<Befriendable> GetFriends()
+        {
+            return _befriendables;
+        }
     }
 }

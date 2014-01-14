@@ -111,7 +111,7 @@ namespace IHI.Server.Habbos.Messenger
         /// <summary>
         /// 
         /// </summary>
-        bool Stalkable
+        public bool Stalkable
         {
             get;
             set;
@@ -121,7 +121,7 @@ namespace IHI.Server.Habbos.Messenger
         /// <summary>
         /// 
         /// </summary>
-        bool Requestable
+        public bool Requestable
         {
             get;
             set;
@@ -131,7 +131,7 @@ namespace IHI.Server.Habbos.Messenger
         /// <summary>
         /// 
         /// </summary>
-        bool Inviteable
+        public bool Inviteable
         {
             get;
             set;

@@ -62,6 +62,7 @@ namespace IHI.Server.Plugins.LibMessenger
             category.AddFriend(befriendable);
             return this;
         }
+
         public MessengerManager RemoveBefriendableFromCategory(Befriendable befriendable, Category category)
         {
             category.RemoveFriend(befriendable);
